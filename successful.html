@@ -1,11 +1,13 @@
+<!-- {% load static %} -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>successful</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Ballot</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
     <link
       rel="shortcut icon"
       type="image/x-icon"
@@ -16,20 +18,38 @@
     <main class="main">
       <!-- this is the login in page  -->
       <section class="login">
-        <img
-          src="assets/svg/c53f34525b493c049649a45a5a179d99 1.svg"
-          alt="NACOSS"
-        />
-        <h3>NACOSS ELECTION</h3>
+        <img src="assets/svg/tC1LJobRFovQ9LlO7VTS 1.svg" alt="NACOSS" />
+        <!-- <h3>NACOSS ELECTION</h3> -->
+        <!-- <p>enter the following details to continue.</p> -->
 
-        <img
-          src="assets/svg/c53f34525b493c049649a45a5a179d99 1.svg"
-          class="successful"
-          alt="successful"
-        />
-        <p class="success-p">Your Vote has been Successfully Recorded.</p>
+        <!-- this is the form area  -->
+        <!-- <div class="form-login">
+          <form action="" method="post">
+            <label for="matricNumber">Security key</label>
+            <input type="text" id="matricNumber" placeholder="BU22CIT2022" /> -->
+        <!-- {% csrf_token %} -->
+
+        <!-- this is the button but i'm not going to link it to aother page i will only style it -->
+        <!-- <a
+              ><button class="btn-login" onclick="myFunction()">
+                Continue
+              </button></a
+            > -->
+        <!-- </form>
+        </div> -->
+        <iframe
+          width="600"
+          height="400"
+          style="border: 1px solid #ccc"
+          frameborder="0"
+          scrolling="no"
+          src="https://sheet.zoho.com/sheet/publicgraphs/6fe619cdc6934c45be2db5378f33325e1669725466791611"
+        ></iframe>
+
+        <!-- <a><button class="btn-login" onclick="myFunction()">Done</button></a> -->
       </section>
     </main>
-    <div class="footer">Copyright © 2022 NACOSS Electoral Committee</div>
+    <!-- <div class="footer">Copyright © 2022 NACOSS Electoral Committee</div> -->
   </body>
+  <script src="assets/js/main.js"></script>
 </html>
